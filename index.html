@@ -10,8 +10,8 @@
   <style>
     :root { color-scheme: dark; font-family: Arial, Helvetica, sans-serif; color: #f2eee5; background: #181b18; }
     * { box-sizing: border-box; }
-    body { margin: 0; min-height: 100svh; isolation: isolate; background: #181b18; }
-    body::before { content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none; background: url("fundo-cutelaria.png") center center / cover no-repeat; opacity: .18; }
+    html { min-height: 100%; background: #181b18; }
+    body { margin: 0; width: 100%; min-height: 100vh; min-height: 100svh; background-color: #181b18; background-image: linear-gradient(#181b18d1, #181b18d1), url("fundo-cutelaria.png"); background-position: center; background-size: cover; background-repeat: no-repeat; background-attachment: fixed; }
     main { width: min(100% - 40px, 460px); margin: auto; padding: 40px 0 32px; text-align: center; }
     .mark { width: 88px; height: 88px; margin: 0 auto 25px; display: grid; place-items: center; border: 2px solid #f2ce7e; border-radius: 50%; background: #101210; color: #ffe0a0; box-shadow: 0 4px 24px #0008; font: bold 36px Georgia, serif; }
     .eyebrow { color: #ffe0a0; font-size: 11px; letter-spacing: 4px; text-transform: uppercase; }
