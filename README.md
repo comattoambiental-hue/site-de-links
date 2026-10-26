@@ -1,4 +1,4 @@
-# Cutelaria Muniz — links oficiais
+# Muniz Cutelaria — links oficiais
 
 Página estática e responsiva em HTML e CSS, sem dependências ou etapa de build.
 
